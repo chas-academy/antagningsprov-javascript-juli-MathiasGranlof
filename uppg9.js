@@ -10,10 +10,10 @@ function uppg9 (){
     const sort = (siffror) => {
         for (let tal of siffror) {
             if (tal %2 === 0) {
-                console.log(tal + ' jämt')
+                console.log(tal, 'jämt')
             }
             else {
-                console.log(tal + ' udda')
+                console.log(tal, 'udda')
             }
         }
     }
